@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 sdr = adi.Pluto("ip: ****")#узнать
-sdr.rx_lo = #узнать
+sdr.rx_lo = 2.437
 
 num_iterations = 30
 
