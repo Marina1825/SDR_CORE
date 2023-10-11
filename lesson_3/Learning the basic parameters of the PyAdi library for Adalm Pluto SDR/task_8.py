@@ -9,7 +9,6 @@ sdr.rx_lo = 2437000000
 rx_real_data = []
 rx_imag_data = []
 wait_values = []
-
 for r in range(30):# Сбор данных
     rx = sdr.rx()
     plt.clf()
