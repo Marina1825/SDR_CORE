@@ -4,15 +4,13 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 sdr = adi.Pluto("ip: ****")#узнать
-sdr.rx_lo = 2.437
-
-num_iterations = 30
+sdr.rx_lo = 2437000000
 
 rx_real_data = []
 rx_imag_data = []
 wait_values = []
 
-for r in range(num_iterations):# Сбор данных
+for r in range(30):# Сбор данных
     rx = sdr.rx()
     plt.clf()
 
@@ -23,7 +21,7 @@ for r in range(num_iterations):# Сбор данных
     plt.ylabel("Амплитуда " + str(wait))
     plt.plot(rx.real)
     plt.plot(rx.imag)
-    
+   
     plt.draw()
     plt.pause(0.05)
     if wait > 200:
