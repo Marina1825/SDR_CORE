@@ -44,6 +44,5 @@ plt.figure(5)
 x_ifft = N*ifft(X,N)
 t = np.arange(0,len(x_ifft))/fs
 plt.plot(t,np.real(x_ifft))
-#p l t . stem ( t , np . r e a l ( x _ i f f t ) ) # временные отсчеты колебания
 plt.xlabel('c')
 plt.ylabel('$x[n]$')
