@@ -89,5 +89,5 @@ k=16
 
 Требовалось вывести спектр частот 
 
-![../../photo_screenshots/screenshots_4.15.png](https://github.com/Marina1825/SDR_CORE/blob/main/photo_screenshots/screenshots_4.15.png)
-![../../photo_screenshots/screenshots_4.16.png](https://github.com/Marina1825/SDR_CORE/blob/main/photo_screenshots/screenshots_4.16.png)
+![../../photo_screenshots/screenshots_4.15.jpg](https://github.com/Marina1825/SDR_CORE/blob/main/photo_screenshots/screenshots_4.15.jpg)
+![../../photo_screenshots/screenshots_4.15.jpg](https://github.com/Marina1825/SDR_CORE/blob/main/photo_screenshots/screenshots_4.15.jpg)
