@@ -19,16 +19,16 @@
 
 # Ход Работы
 1) При помощи приложения WifiAnalyzer, определили канал на котором работает наш WI-FI 2.4 [GHz]. После нахождения значения канала, при помощи Google нашли соответствующую каналу несущую частоту. 
-2) Имя точки доступа: "iphone(Сергей)".
+2) Имя точки доступа: "Galaxy A03s7251".
 3) Скриншот с Wifi Analyzer:
 <details>
 
-[![../../photo_screenshots/screenshots_3.9.png](screenshots_3.9.png)][1]][1]
+[![../../photo_screenshots/screenshots_3.9.png](https://github.com/Marina1825/SDR_CORE/blob/main/photo_screenshots/screenshots_3.9.png)][1]][1]
 
 </details>
 4) Скриншот вывода программы:
 <details>
 
-[![../../photo_screenshots/screenshots_3.8.png](screenshots_3.9.png)][1][1]
+[![../../photo_screenshots/screenshots_3.8.png](https://github.com/Marina1825/SDR_CORE/blob/main/photo_screenshots/screenshots_3.8.png)][1][1]
 
 </details>
