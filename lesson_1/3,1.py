@@ -1,16 +1,13 @@
 import matplotlib.pyplot as plt
-
 import numpy as np
 
 def generate_sinusoid_sin(N, A, f0, fs, phi):
-    
     T = 1/fs
     array = np.arange(N)
     x1 = A * np.sin( 2*f0*np.pi*array*T + phi )
     return x1
 
 def generate_sinusoid_cos(N, A, f0, fs, phi):
-    
     T = 1/fs
     array = np.arange(N)
     x2 = A * np.cos( 2*f0*np.pi*array*T + phi )
@@ -21,11 +18,8 @@ A = 5
 f0 = 440
 fs = 200000
 phi = 0
-
 x1 = generate_sinusoid_sin(N, A, f0, fs, phi)
 x2 = generate_sinusoid_cos(N, A, f0, fs, phi)
-
-#print(x)
 
 plt.figure(figsize=(10,4))
 plt.subplot(121)
