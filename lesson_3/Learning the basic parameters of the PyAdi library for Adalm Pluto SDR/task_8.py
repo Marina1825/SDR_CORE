@@ -3,7 +3,7 @@ import adi
 import matplotlib.pyplot as plt
 import numpy as np
 
-sdr = adi.Pluto("ip: ****")#узнать
+sdr = adi.Pluto("ip: ")
 sdr.rx_lo = 2437000000
 
 rx_real_data = []
